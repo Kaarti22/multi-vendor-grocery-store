@@ -1,5 +1,6 @@
 import Heading from "@/components/backend/Heading"
 import LargeCards from "@/components/backend/LargeCards"
+import SmallCards from "@/components/backend/SmallCards"
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
       {/* Large Cards */}
       <LargeCards/>
       {/* Small Cards */}
+      <SmallCards/>
       {/* Charts */}
       {/* Recent Orders Table */}
     </div>
