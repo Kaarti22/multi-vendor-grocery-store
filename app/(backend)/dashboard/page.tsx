@@ -2,6 +2,7 @@ import DashboardCharts from "@/components/backend/DashboardCharts"
 import Heading from "@/components/backend/Heading"
 import LargeCards from "@/components/backend/LargeCards"
 import SmallCards from "@/components/backend/SmallCards"
+import CustomDataTable from "@/components/backend/CustomDataTable";
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
       {/* Charts */}
       <DashboardCharts/>
       {/* Recent Orders Table */}
+      <CustomDataTable/>
     </div>
   )
 }
