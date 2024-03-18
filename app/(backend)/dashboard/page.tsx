@@ -1,3 +1,4 @@
+import DashboardCharts from "@/components/backend/DashboardCharts"
 import Heading from "@/components/backend/Heading"
 import LargeCards from "@/components/backend/LargeCards"
 import SmallCards from "@/components/backend/SmallCards"
@@ -11,6 +12,7 @@ const page = () => {
       {/* Small Cards */}
       <SmallCards/>
       {/* Charts */}
+      <DashboardCharts/>
       {/* Recent Orders Table */}
     </div>
   )
